@@ -80,7 +80,8 @@ public class Bill extends JFrame {
 					Scanner s = new Scanner(new File("D:\\orders.txt"));
 					Formatter fr;
 					while(s.hasNext())
-					{
+					{       
+                                                System.out.println("Here");
 						String product = s.next();
 						int quantity = s.nextInt();
 						int rate = s.nextInt();
